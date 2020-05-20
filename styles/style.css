@@ -13,11 +13,20 @@ body {
     margin: 0 auto;
 }
 
+.navigation {
+    display: flex;
+    justify-content: center;
+}
+
 .navigation-list {
     margin: 0;
     display: flex;
+    text-decoration: none;
 }
 
+.navigation-list-item {
+    list-style-type: none;
+} 
 
 .header {
     background-color: aquamarine;
