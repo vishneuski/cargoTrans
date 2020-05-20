@@ -9,8 +9,15 @@ body {
 .header-wrapper, .main-wrapper, .footer-wrapper {
     height: 100%;
     width: 80%;
+    max-width: 100em;
     margin: 0 auto;
 }
+
+.navigation-list {
+    margin: 0;
+    display: flex;
+}
+
 
 .header {
     background-color: aquamarine;
