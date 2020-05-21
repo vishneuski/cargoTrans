@@ -248,15 +248,36 @@ label {
   width: 90%;
   margin: 0 auto;;
   display: flex;
+  /*position: relative;*/
 }
 
-.svg-europe-image {
-  
+/*.svg-europe-image {*/
+/*  position: absolute;*/
+/*  top:0;*/
+/*  left: 0;*/
+/*}*/
+
+.svg-europe-image path {
+  fill:#c5c5c5;
+  stroke: #ffffff;
+  stroke-width: 1px;
+  transition: fill 0.3s;
+}
+
+.svg-europe-image :hover {
+  fill: #c4c53f;
 }
 
 .svg-description {
   background-color: rgb(80, 124, 124);
 }
+
+/*.pencil-in-svg {*/
+/*  position: absolute;*/
+/*  width: 2em;*/
+/*  top: 10%;*/
+/*  left: 10%;*/
+/*}*/
 
 .footer {
   background-color: coral;
