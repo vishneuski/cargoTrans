@@ -158,8 +158,10 @@ body {
 .contact-form-wrapper {
   width: 80%;
   margin: 0 auto 2em;
-  height: 20em;
-  background-color: burlywood;
+  box-sizing: border-box;
+  padding: 1em;
+  border: 1px solid gray;
+  border-radius: 2%;
 }
 
 .contact-form {
@@ -176,6 +178,19 @@ body {
 
 .contacts-form-headline {
   text-transform: uppercase;
+  box-sizing: border-box;
+  padding:1em 0 1em ;
+  display: flex;
+}
+
+.pencil {
+  height: 2em;
+}
+
+.contact-form-headline-header {
+
+  padding: 0;
+  margin: 0 0 0 0.5em;
 }
 
 .contacts-message-form-input-field {
@@ -188,21 +203,45 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
+  margin-top: 2em;
 }
 
 .client-data {
   display: flex;
   justify-content: space-between;
+  margin-top: 1em;
+}
+
+.contacts-button-wrapper {
+  box-sizing: border-box;
+  width: 8em;
+  height: 2em;
+  line-height: 2em;
+  border-radius: 5%;
+  margin-top: 1em;
+  border: 1px solid gray;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  outline: none;
+  text-align: center;
+}
+
+textarea, input {
+  box-sizing: border-box;
+  padding: 0.5em;
+  border-radius: 2%;
+  border: 1px solid gray;
 }
 
 .button {
   text-decoration: none;
-  color:black;
+  color:gray;
   text-transform: uppercase;
 }
 
 label {
   text-transform: uppercase;
+  margin-bottom: 1em;
 }
 
 .footer {
