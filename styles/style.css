@@ -140,11 +140,69 @@ body {
 }
 
 .auto-park-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
   position: relative;
   width: 18em;
   height: 18em;
   margin-bottom: 2em;
-  background-color: rgb(207, 141, 94);
+  background-color: rgb(164, 185, 127);
+}
+
+.auto-item {
+  width: 100%;
+}
+
+.contact-form-wrapper {
+  width: 80%;
+  margin: 0 auto 2em;
+  height: 20em;
+  background-color: burlywood;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-self: center;
+}
+
+.contacts-message-form-input {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.contacts-form-headline {
+  text-transform: uppercase;
+}
+
+.contacts-message-form-input-field {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.contacts-message-form-message-area {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.client-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  text-decoration: none;
+  color:black;
+  text-transform: uppercase;
+}
+
+label {
+  text-transform: uppercase;
 }
 
 .footer {
@@ -154,3 +212,5 @@ body {
 .footer-wrapper {
   background-color: crimson;
 }
+
+
