@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a40b9f9-8004-431a-8b43-87fc76191eed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scripts/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/step-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/step-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/step-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/step-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/step-5.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/step-5.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
     </list>
@@ -40,8 +42,9 @@
   <component name="ProjectId" id="1cBeDats7dFeHKUTzNB6pAjDSn1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/Папка Сергея/adjective" />
+    <property name="last_opened_file_path" value="D:/Sergey/Programming/github.pages/vishneuski.github.io/index.html" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -71,7 +74,8 @@
       <option name="presentableId" value="Default" />
       <updated>1590006294437</updated>
       <workItem from="1590006297340" duration="3863000" />
-      <workItem from="1590076862462" duration="5365000" />
+      <workItem from="1590076862462" duration="5520000" />
+      <workItem from="1590165499506" duration="4734000" />
     </task>
     <servers />
   </component>
